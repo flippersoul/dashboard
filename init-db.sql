@@ -1,6 +1,6 @@
-CREATE DATABASE initdb;
+CREATE DATABASE pgpromise;
 
-\c initdb;
+\c pgpromise;
 
 CREATE TABLE table1 (
     id SERIAL PRIMARY KEY,
