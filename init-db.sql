@@ -1,3 +1,7 @@
+CREATE DATABASE initdb;
+
+\c initdb;
+
 CREATE TABLE table1 (
     id SERIAL PRIMARY KEY,
     numeric_field NUMERIC,
